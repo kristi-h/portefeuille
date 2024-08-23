@@ -1,0 +1,31 @@
+.project-container {
+    display: flex;
+    columns: 2;
+    flex-grow: 1;
+    height: 340px;
+    width: 100%;
+    margin-bottom: 80px;
+    transition: all 0.4s ease;
+    border-style: solid;
+    border-color: purple;
+
+}
+
+.project-container .project-preview {
+    flex-basis: 50%;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+    border-style: solid;
+    border-color: purple;
+}
+
+.project-container .project-details {
+    font-family: "classica-pro", serif;
+    flex-basis: 50%;
+    background-color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: purple;
+}
