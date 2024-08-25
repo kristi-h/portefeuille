@@ -12,6 +12,7 @@
 }
 
 .project-container .project-preview {
+    font-family: "classica-pro", serif;
     flex-basis: 50%;
     flex-shrink: 0;
     overflow: hidden;
@@ -24,8 +25,23 @@
     font-family: "classica-pro", serif;
     flex-basis: 50%;
     background-color: white;
+    align-content: left;
+    color: black;
     padding: 40px;
     box-sizing: border-box;
     border-style: solid;
     border-color: purple;
+}
+
+.project-container .project-details .body {
+    color: #646466;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+@media screen and (max-width: 900px) {
+    .project-container .project-details .metadata {
+        margin-bottom: 36px;
+    }
 }
